@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins';
+} 
+
+.cabecalho2 {
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho2 .logo {
+    width: 35px;
+}
+
+.cabecalho2 .menu2 {
+  
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.cabecalho2 nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cabecalho2 nav li a:hover {
+    background-color: #d5011d;
+
+}
+
+.container2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+}
+
+.container2 .imagem-titulo {
+    max-width: 500px;
+}
+
+
+
+.container2 .os-detalhes {
+    color: #ffffff;
+    width: 85;
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+.filme, .lista {
+    color: #ffffff
+}
+
+.miura {
+    color: #ffffff
+}
+
+.kentaro {
+    color: #ffffff;
+}
+
+
+.fundo-imagem {
+    background-color: #7A0C0C;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundo-imagem::after{
+    content: "";
+    height: 100vh;
+    width: 110vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0.7105217086834734) 50%, rgba(0,0,0,1) 85%);
+}
+
